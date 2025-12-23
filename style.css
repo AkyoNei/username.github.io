@@ -986,7 +986,7 @@ h1, h2 {
   animation : overlayFade 0.25s ease;
   display : none; 
   z-index : 10000;
-  cursor: grab;   
+  cursor: move;   
   border : 3px solid var(--black);
   border-radius : 20px;
   box-shadow : 10px 10px 0 #000;
@@ -994,7 +994,7 @@ h1, h2 {
 }
 
 .skill__popup:active {
-  cursor: grabbing;
+  cursor:  move;
 }
 
 .skill__icon {
@@ -1706,7 +1706,6 @@ h1, h2 {
 }
 
 /*  BUTTON UP  */
-/* From Uiverse.io by arthur_6104 */
 .box-button {
   cursor: pointer;
   border: 4px solid black;
@@ -1863,8 +1862,6 @@ h1, h2 {
     height : 4.6em;
     width : 13.3em;
   }
-
-
 
   .intro {
     gap: 1.2rem; 
